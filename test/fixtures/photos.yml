@@ -1,14 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 one:
-  username: 
-  caption: 
-  likes_count: 
-  url: 
-  created_at: 
+  username: Hung
+  caption: football king
+  likes_count: 10000
+  url: "https://pbs.twimg.com/media/Clusm_JWYAEj2H-.jpg:large"
+  created_at: <%= 10.years.ago %>
 
-two:
-  username: 
-  caption: 
-  likes_count: 
-  url: 
-  created_at: 
+two: 
+  username: Andrew
+  caption: basketball king
+  likes_count: 5000
+  url: "https://pbs.twimg.com/media/Clusm_JWYAEj2H-.jpg:large"
+  created_at: <%= 5.weeks.ago %> 
